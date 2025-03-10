@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 900px;
+  text-align: center;
+  overflow-x: auto; /* Menambahkan scroll horizontal jika tabel melebar */
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  table-layout: fixed; /* Memastikan kolom tabel memiliki lebar tetap */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  word-wrap: break-word; /* Mencegah teks meluber keluar */
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Button Styling */
+.edit-btn,
+.delete-btn,
+.logout-btn {
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.edit-btn {
+  background-color: #fbc02d;
+}
+
+.edit-btn:hover {
+  background-color: #f9a825;
+}
+
+.delete-btn {
+  background-color: #e53935;
+}
+
+.delete-btn:hover {
+  background-color: #c62828;
+}
+
+.logout-btn {
+  background-color: #007bff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.logout-btn:hover {
+  background-color: #0056b3;
+}
