@@ -70,6 +70,8 @@ Ini adalah proyek halaman web admin sederhana di mana **User** dan **Admin** mem
    }
    ?>
    ``
+8.  Untuk menjalankan di browser, gunakan url berikut : 
+``http://localhost/task_pertama/``
 
 ## Contoh Halaman
 Registrasi 
